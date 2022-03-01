@@ -1,1 +1,21 @@
 Descriptions of in-game areas the player can visit will be included here.
+
+Ghost town:
+The first town that MC finds themselves in. With seemingly no inhabitants and a very
+run-down appearance, this town is the epitome of a ghost town.
+Building: run-down science facility
+This is the building MC first finds himself in. A single-room building with a single
+and no chair, the building feels a little cramped. Clear signs of a struggle: papers
+strewn across the room, desk is damaged, door is broken, scratch marks on the walls,
+seemingly blood stains on the walls.
+Outside:
+In the main area of the town, there are roughly a dozen buildings, all in roughly the
+same shape as the science facility. Due to the giant rat that startles MC, he has no
+time to explore the area further.
+
+Road to X village:
+After the giant rat encounter, MC flees down this path. There is an occasional tree or
+shrub, but the landscape is mostly barren with withered grass. It isn't as hot as a
+desert, but it is warmer than MC is used to. The road occasionally curves around a
+large rock or tree, but it stays straight for the most part. This area is purely for
+story purposes; the player cannot interact with anything in this area.
