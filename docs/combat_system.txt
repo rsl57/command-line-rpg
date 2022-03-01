@@ -1,0 +1,46 @@
+Combat menu options:
+1. Physical attack (attack the enemy with your melee weapon)
+2. Magic attack (unlocked some time into the story; attack the enemy with a magic
+spell)
+3. Talk (befriend, ask for money, or ask for an item)
+4. Guard (intentionally tank a hit, but take less damage; could be useful when talking
+to an enemy if first attempt fails)
+5. Dodge (always have a chance to unintentionally dodge; choosing this option raises
+this dodge chance successfully; if a player intentionally dodges, they catch the
+opponent off guard and get 2 consecutive turns)
+6. Run (attempt to run away from enemy; guaranteed after 3 attempts)
+
+Combat stats:
+1. Speed primarily affects turn order, but if speed is high enough over the opponent,
+the player may be able to take multiple turns for every turn the opponent takes.
+2. Dexterity primarily affects the strength of ranged attacks and magic attacks, but it
+also increases intentional dodge chance.
+3. Stength affects the damage dealt from a melee attack.
+4. Agility affects the chance to intentionally or unintentionally dodge.
+5. Resistances (to poison, paralysis, sleep, weaken, burn, and frostbite) increase the
+chance that the player will not be afflicted with the specified ailment.
+6. Max health dictates how much damage a player can take before a game over.
+7. Intelligence (similar to MP or SP in other games) dictates how much magic a player
+can use in a single battle.
+
+Combat focus modes:
+Speed, dexterity, strength, agility, and health can be selected as the combat focus
+mode. This is the stat that will level up at the end of a battle. The user can also
+select focused mode, which will give a bonus to all stats in-battle, but no stats will
+increase at the end. Resistances do not have a combat focus mode, but they can be
+trained by fighting enemies with that affinity (i.e. fighting an enemy with a poison
+affinity will increase poison resistance). Intelligence cannot be trained; rather,
+it increases as the story progresses.
+
+Magic spells (unlocked sequentially as story progresses):
+1. Fireball
+2. Choose shock OR freeze OR burn
+3. Poison
+4. Lightning replaces shock, ice beam replaces freeze, or scalding blast replaces
+burn
+5. Choose shock OR freeze OR burn (excluding choice made for spell #2)
+6. Sleep (name of this spell will likely be changed at some point)
+7. If shock and burn were chosen: replace both with Zeus's anger; if shock and
+freeze were chosen: replace both with static glacier; if freeze and burn were
+chosen, replace both with frozen hell
+8. Manifest (unusable in combat; only there for story purposes)
