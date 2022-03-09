@@ -1,0 +1,88 @@
+MOVEMENT:
+
+move [location]:
+Move the player from the current location to the new specified location, given that
+the 2 locations are linked.
+
+travel [location]:
+When in a quick-travel enabled location, quick travel to the specified location, given
+that the specified location is also quick-travel enabled.
+
+
+EXAMINATION:
+
+check [map item]:
+Examine an item, given that the item is on the current map location.
+
+examine area:
+Display the information for the area you are currently in and add the area to your
+visit log.
+
+
+INFO DISPLAY:
+
+display [log type]:
+Display the titles of the entries of the specified log.
+
+display area [area]:
+Check an area from your travel log, given the the area in question has been visited
+before.
+
+display mob [mob name]:
+Check a mob from the from the mob log, given that the mob has been fought before.
+
+
+INTERACTION:
+
+take [map item]:
+Pick up an item from the map, given that the item is on the current map location
+and the item is obtainable.
+
+talk [NPC]:
+Talk to the specified NPC, given that they are on the current map location.
+
+fight [mob]:
+Initiate a battle with the specified mob, given that the mob is in the current map
+location
+
+use [machine]:
+Initiate usage of the specified machine, given that the machine is on the current
+map location.
+
+gather [map item]:
+Similar to *take*, pick up a depletable resource from the map, given that the
+specified resource is on the current map location and the item is a depletable
+resource.
+
+
+INVENTORY USAGE:
+
+inventory:
+Display the user's current inventory and equipment
+
+consume [item]:
+Consume an item in the player's inventory, given that the item exists in the
+player's inventory.
+
+consume [quantity] [item]:
+Consume the specified quantity of an item in the player's inventory, given that
+the item exists in the specified quantity in the player's inventory.
+
+equip [equipment]:
+Equip the specified piece of equipment, given that the equipment is in the
+player's inventory.
+
+unequip [equipment]:
+Remove the specified equipment from the player's worn equipment, given that the
+equipment is currently being worn by the player.
+
+trash [item]:
+Destroy the specified item, given that the item is in in the player's inventory.
+
+trash [quantity] [item]:
+Destroy the specified quantity of the specified item, given that the specified
+item exists in the specified quantity in the player's inventory.
+
+trash [equipment]:
+Destroy the specified piece of equipment, given that the equipment is in the
+player's inventory.
