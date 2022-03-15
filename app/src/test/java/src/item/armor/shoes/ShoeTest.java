@@ -13,6 +13,9 @@ public class ShoeTest {
 
         assertTrue(shoe.is_equipable());
         assertFalse(shoe.is_consumable());
+        
+        assertTrue(shoe.is_sellable());
+        assertEquals(shoe.get_price(), 80);
 
         assertEquals(shoe.check_quantity(), 1);
         shoe.trash(1);
@@ -27,6 +30,9 @@ public class ShoeTest {
 
         assertTrue(shoe.is_equipable());
         assertFalse(shoe.is_consumable());
+        
+        assertTrue(shoe.is_sellable());
+        assertEquals(shoe.get_price(), 200);
 
         assertEquals(shoe.check_quantity(), 1);
         shoe.trash(1);
@@ -41,6 +47,9 @@ public class ShoeTest {
 
         assertTrue(shoe.is_equipable());
         assertFalse(shoe.is_consumable());
+        
+        assertTrue(shoe.is_sellable());
+        assertEquals(shoe.get_price(), 500);
 
         assertEquals(shoe.check_quantity(), 1);
         shoe.trash(1);
@@ -55,6 +64,9 @@ public class ShoeTest {
 
         assertTrue(shoe.is_equipable());
         assertFalse(shoe.is_consumable());
+        
+        assertTrue(shoe.is_sellable());
+        assertEquals(shoe.get_price(), 1200);
 
         assertEquals(shoe.check_quantity(), 1);
         shoe.trash(1);
@@ -69,6 +81,9 @@ public class ShoeTest {
 
         assertTrue(shoe.is_equipable());
         assertFalse(shoe.is_consumable());
+        
+        assertTrue(shoe.is_sellable());
+        assertEquals(shoe.get_price(), 3000);
 
         assertEquals(shoe.check_quantity(), 1);
         shoe.trash(1);
