@@ -1,4 +1,6 @@
-package src.item;
+package src.item.armor;
+
+import src.item.Item;
 
 public abstract class Armor extends Item {
     
