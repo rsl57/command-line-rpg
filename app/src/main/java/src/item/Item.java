@@ -5,6 +5,7 @@ public abstract class Item {
     protected boolean EQUIPABLE;
     protected boolean CONSUMABLE;
     protected int MAX_STACK;
+    protected int MARKET_VALUE;
     protected int quantity;
     
 
@@ -14,6 +15,17 @@ public abstract class Item {
 
     public boolean is_consumable() {
         return CONSUMABLE;
+    }
+
+    public boolean is_sellable() {
+        if(MARKET_VALUE == 0) {
+            return false;
+        }
+        return true;
+    }
+
+    public int get_price() {
+        return MARKET_VALUE;
     }
 
     public int check_quantity() {
