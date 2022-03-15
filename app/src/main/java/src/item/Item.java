@@ -40,11 +40,16 @@ public abstract class Item {
         }
     }
 
-    public void add_quantity(int quantity) {
+    public boolean can_add(int quantity) {
         if(this.quantity + quantity <= MAX_STACK) {
+            return true;
+        }
+        return false;
+    }
+
+    public void add_quantity(int quantity) {
+        if(can_add(quantity)) {
             this.quantity += quantity;
-        } else {
-            this.quantity = MAX_STACK;
         }
     }
 }
