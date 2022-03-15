@@ -1,4 +1,4 @@
-package src.item.weapon.Knuckles;
+package src.item.weapon.knuckles;
 
 import src.item.weapon.Weapon;
 
