@@ -1,4 +1,6 @@
-package src.item.armor;
+package src.item.armor.chestplate;
+
+import src.item.armor.Armor;
 
 public abstract class Chestplate extends Armor {
     

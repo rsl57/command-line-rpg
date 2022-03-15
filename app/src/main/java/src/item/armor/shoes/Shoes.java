@@ -1,4 +1,6 @@
-package src.item.armor;
+package src.item.armor.shoes;
+
+import src.item.armor.Armor;
 
 public abstract class Shoes extends Armor {
     

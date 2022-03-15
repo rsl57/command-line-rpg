@@ -1,4 +1,6 @@
-package src.item.armor;
+package src.item.armor.handgear;
+
+import src.item.armor.Armor;
 
 public abstract class HandGear extends Armor {
     
