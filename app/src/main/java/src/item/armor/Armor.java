@@ -8,5 +8,6 @@ public abstract class Armor extends Item {
         EQUIPABLE = true;
         CONSUMABLE = false;
         MAX_STACK = 1;
+        quantity = 1;
     }
 }
